@@ -1,0 +1,19 @@
+<header class="login form-control">
+    <div class="mb row ">
+        <h3>Inicio de sesion</h3>
+        <span  class="alert alert-danger" *ngIf="isVisible" >
+          Credenciales incorrectas
+        </span >
+        <div class="col-sm-12 mt-4 ">
+            <label for="">Ingrese email:</label>
+            <input [(ngModel)]="email" type="email" class="form-control mt-2" placeholder="email">
+        </div>
+      </div>
+      <div class="mb-lg-2 row ">
+        <div class="col-sm-12 mt-4 ">
+            <label for="">Ingrese contraseña:</label>
+          <input [(ngModel)]="password" type="password" class="form-control mt-2" placeholder="password">
+        </div>
+      </div >
+      <button  (click)="ingresar()">Ingresar</button>
+</header>

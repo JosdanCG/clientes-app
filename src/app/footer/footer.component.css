@@ -1,0 +1,10 @@
+p{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background: rgb(20, 134, 94);
+    text-align: center;
+    margin-top: auto;
+}
