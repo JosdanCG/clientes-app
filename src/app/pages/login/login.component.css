@@ -1,5 +1,15 @@
-.login{
-    background: blanchedalmond;
-    width:  50%;
-    margin: 20% auto;
+.login {
+  border-color: #ffc107;
+  border-width: 10px;
+  width: 50%;
+  margin: 12% auto;
+}
+
+.title {
+  text-align: center;
+  margin: 10px;
+}
+
+.btn {
+  margin-bottom: 25px;
 }

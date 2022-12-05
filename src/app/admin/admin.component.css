@@ -1,0 +1,17 @@
+.navbar-brand {
+  font-size: 30px;
+}
+
+.button {
+  max-width: 300px;
+  display: flex;
+  text-decoration: none;
+  background-color: #ed6c6c;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 25px;
+}
+
+.button:hover {
+  background-color: #ff8886;
+}

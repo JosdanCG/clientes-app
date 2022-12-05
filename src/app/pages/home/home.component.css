@@ -1,3 +1,6 @@
-h2{
-    margin: 70px 25% 30px ;
+h2 {
+  margin: 80px 25% 30px;
+  text-align: center;
+  /* text-underline-offset:unset; */
+  text-decoration-line: underline;
 }

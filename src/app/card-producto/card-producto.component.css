@@ -1,0 +1,21 @@
+.pro {
+  /* display: flex; */
+  margin-top: 100px;
+  text-align: center;
+}
+
+h1 {
+  text-decoration-line: underline;
+}
+
+.fila {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cuak {
+  width: 200px;
+  height: 288px;
+  padding-top: 10px;
+  padding-left: 80px;
+}
